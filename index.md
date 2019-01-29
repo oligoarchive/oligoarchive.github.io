@@ -1,37 +1,11 @@
-## Welcome to GitHub Pages
+# Problem
 
-You can use the [editor on GitHub](https://github.com/oligoarchive/oligoarchive.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+The demand for data-driven decision making coupled with need to retain data to meet regulatory compliance requirements has resulted
+in a rapid increase in the amount of archival data stored by enterprises. As data generation rate far outpaces the rate of improvement
+in storage density of media like HDD and tape, researchers have started investigating new architectures and media types that can store such “cold”, infrequently accessed data at very low cost.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+# Synthetic DNA
+Synthetic DNA is one such storage media that has received some attention recently due to its high density and durability. DNA possesses three key properties that make it relevant for archival storage. First, it is an extremely dense threedimensional storage medium that has the theoretical ability to store 455 Exabytes in 1 gram; in contrast, a 3.5” HDD can store 10TB and weighs 600 grams today. Second, DNA can last several centuries even in harsh storage environments; HDD and tape have life times of five and thirty years. Third, it is very easy, quick, and cheap to perform in-vitro replication of DNA; tape and HDD have bandwidth limitations that result in hours or days for copying large EB-sized archives.
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/oligoarchive/oligoarchive.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+# Research
+In this project, we investigate the problem of integrating DNA in the enterprise storage hierarchy.
