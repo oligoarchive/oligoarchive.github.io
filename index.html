@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="UTF-8">
+
+    <link rel="stylesheet" href="modal-video.css">
+    <script src="jquery-2.2.4.min.js"></script>
+    <script src="modal-video.js"></script>
+    <script src="jquery-modal-video.js"></script>
+
+    <!-- Begin Jekyll SEO tag v2.5.0 -->
+    <title>OligoArchive</title>
+    <meta name="generator" content="Jekyll v3.7.4">
+    <meta property="og:title" content="Problem">
+    <meta property="og:locale" content="en_US">
+    <link rel="canonical" href="https://oligoarchive.github.io/">
+    <meta property="og:url" content="https://oligoarchive.github.io/">
+    <meta property="og:site_name" content="oligoarchive.github.io">
+    <script type="application/ld+json">
+        {
+            "headline": "Problem",
+            "@type": "WebSite",
+            "url": "https://oligoarchive.github.io/",
+            "name": "oligoarchive.github.io",
+            "@context": "http://schema.org"
+        }
+
+    </script>
+    <!-- End Jekyll SEO tag -->
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#157878">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <section class="page-header">
+        <h1 class="project-name">OligoArchive</h1>
+        <h2 class="project-tagline"></h2>
+
+
+    </section>
+
+    <section class="main-content">
+        <h1 id="problem">Problem</h1>
+
+        <p>The demand for data-driven decision making coupled with need to
+            retain data to meet regulatory compliance requirements has resulted
+            in a rapid increase in the amount of archival data stored by
+            enterprises. As data generation rate far outpaces the rate of
+            improvement
+            in storage density of media like HDD and tape, researchers have started
+            investigating new architectures and media types that can store such
+            “cold”, infrequently accessed data at very low cost.</p>
+
+        <h1 id="synthetic-dna">Synthetic DNA</h1>
+        <p>Synthetic DNA is one such storage media that has received some
+            attention recently due to its high density and durability. DNA possesses
+            three key properties that make it relevant for archival storage. First,
+            it is an extremely dense threedimensional storage medium that has the
+            theoretical ability to store 455 Exabytes in 1 gram; in contrast, a 3.5”
+            HDD can store 10TB and weighs 600 grams today. Second, DNA can last
+            several centuries even in harsh storage environments; HDD and tape have
+            life times of five and thirty years. Third, it is very easy, quick, and
+            cheap to perform in-vitro replication of DNA; tape and HDD have
+            bandwidth limitations that result in hours or days for copying large
+            EB-sized archives.</p>
+
+        <h1 id="research">Research Results</h1>
+        <p>In this project, we investigate the problem of integrating DNA in the enterprise storage hierarchy. In our initial worl, we investigate the problem of integrating DNA in the database storage hierarchy. More specifically, we ask the following two questions: (i) how can database knowledge help optimize DNA encoding and decoding? and (ii) how can biochemical mechanisms used for DNA manipulation be used to perform in-vitro, near-data SQL query processing?</p>
+
+        <p>In answering these questions, we present OligoArchive, an architecture for using DNA-based storage system as the archival tier of a relational database. We demonstrate that OligoArchive can be realized in practice by building archiving and recovery tools (pg_oligo_dump and pg_oligo_restore) for PostgreSQL that perform schema-aware encoding and decoding of relational data on DNA, and using these tools to archive a 12KB TPC-H database to DNA, perform in-vitro computation, and restore it back again.</p>
+
+        <center><a href="http://cidrdb.org/cidr2019/papers/p98-appuswamy-cidr19.pdf"><img src="cidr.png" width="50%"></a></center>
+
+
+
+        <h1 id="research">Videos</h1>
+
+        <center>
+            <table style="border:none;width=100%" border="0">
+                <tr>
+                    <td style="border:none" width="50%"><a href="#" class="js-video-button" data-channel="youtube" data-video-id="kgPUNknYthw"><img src="dnadatabase.png"></a></td>
+                    <td style="border:none" width="50%"><a href="#" class="js-video-button" data-channel="youtube" data-video-id="kdQecyAvtjs"><img src="dnaprocessing.png"></a></td>
+                </tr>
+            </table>
+        </center>
+
+
+        <footer class="site-footer">
+        </footer>
+
+        <h1 id="research">Consortium</h1>
+
+        <table style="width:100%;border:none" border="0">
+            <tr>
+                <td style="width:30%;border:none"><img src="cnrs.png" vspace="50"></td>
+                <td style="width:5%;border:none"></td>
+                <td style="width:30%;border:none"><img src="eurecom.jpeg" vspace="50"></td>
+                <td style="width:5%;border:none"></td>
+                <td style="width:30%;border:none"><img src="imperial.png" vspace="50"></td>
+            </tr>
+            <tr>
+                <td style="border:none" align="center"><a href="http://unice.fr/recherche/chercheurs-a-lhonneur/chercheurs/barbry-pascal">Pascal Barbry</a><br><a href="http://www.i3s.unice.fr/~am/Biography.html">Marc Antonini</a></td>
+                <td style="border:none"></td>
+                <td style="border:none" align="center"><a href="http://www.rajaappuswamy.com">Raja Appuswamy</a></td>
+                <td style="border:none"></td>
+                <td style="border:none" align="center"><a href="http://wp.doc.ic.ac.uk/theinis/">Thomas Heinis</a><br><a href="https://www.imperial.ac.uk/people/j.macdonald">James McDonald</a><br><a href="https://www.imperial.ac.uk/people/p.freemont">Paul Freemont</a></td>
+            </tr>
+        </table>
+
+        <script>
+            $(".js-video-button").modalVideo({});
+
+        </script>
+
+    </section>
+</body>
+
+</html>
